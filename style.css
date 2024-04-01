@@ -19,11 +19,27 @@
     align-items: center; /* Center items horizontally */
     padding-top: 50px;
 }
+.frcard{
+        background-image: url(/images/Screenshot\ from\ 2024-04-01\ 10-14-09.png);
+        background-repeat: no-repeat;
+        text-align: center;
+        border: 1px solid black;
+        border-radius: 10px;
+        height: 426px;
+        width: 315px;
+        display: flex;
+        flex-direction: column; /* Set flex-direction to column to align items vertically */
+        
+        align-items: center; /* Center items horizontally */
+        padding-top: 50px;
+    
+}
 
 .pic {
     border: 5px solid lightgreen;
     width: 100px;
     height: 100px;
+    margin-top: 135px;
 }
 .authority{
     margin-top: 50px;
