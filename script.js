@@ -27,13 +27,64 @@ crs.innerHTML =`<strong>Course: <u>${obj.d.value}</u></strong>`
 document.getElementById("courses").append(crs)
 
   //non-logical random rollno
-  let fixedLetters = "WMA"; // Fixed letters
-  let randomDigits = Math.floor(100000 + Math.random() * 900000); // Generate random 6-digit number
-  let randomNumber = fixedLetters + "-" + randomDigits.toString().slice(0, 6); // Concatenate fixed letters with random digits
+  
+  if(obj.d.value == "Web and App Development"){
 
-  // Update roll number on the card
-  let rollno = document.querySelector(".rollNo");
-  rollno.textContent = randomNumber;
+    let fixedLetters = "WMA"; // Fixed letters
+    let randomDigits = Math.floor(100000 + Math.random() * 900000); // Generate random 6-digit number
+    let randomNumber = fixedLetters + "-" + randomDigits.toString().slice(0, 6); // Concatenate fixed letters with random digits
+  
+    // Update roll number on the card
+    let rollno = document.querySelector(".rollNo");
+    rollno.textContent = randomNumber;
+  }
+  else if(obj.d.value == "Graphic Designing"){
+    let fixedLetters = "GD"; // Fixed letters
+    let randomDigits = Math.floor(100000 + Math.random() * 900000); // Generate random 6-digit number
+    let randomNumber = fixedLetters + "-" + randomDigits.toString().slice(0, 6); // Concatenate fixed letters with random digits
+  
+    // Update roll number on the card
+    let rollno = document.querySelector(".rollNo");
+    rollno.textContent = randomNumber;
+  }
+  else if(obj.d.value == "Python Programming"){
+    let fixedLetters = "PP"; // Fixed letters
+    let randomDigits = Math.floor(100000 + Math.random() * 900000); // Generate random 6-digit number
+    let randomNumber = fixedLetters + "-" + randomDigits.toString().slice(0, 6); // Concatenate fixed letters with random digits
+  
+    // Update roll number on the card
+    let rollno = document.querySelector(".rollNo");
+    rollno.textContent = randomNumber;
+  }
+  else if(obj.d.value == "Cyber Security"){
+    let fixedLetters = "CS"; // Fixed letters
+    let randomDigits = Math.floor(100000 + Math.random() * 900000); // Generate random 6-digit number
+    let randomNumber = fixedLetters + "-" + randomDigits.toString().slice(0, 6); // Concatenate fixed letters with random digits
+  
+    // Update roll number on the card
+    let rollno = document.querySelector(".rollNo");
+    rollno.textContent = randomNumber;
+  }
+  else if(obj.d.value == "IT Essentials"){
+    let fixedLetters = "IE"; // Fixed letters
+    let randomDigits = Math.floor(100000 + Math.random() * 900000); // Generate random 6-digit number
+    let randomNumber = fixedLetters + "-" + randomDigits.toString().slice(0, 6); // Concatenate fixed letters with random digits
+  
+    // Update roll number on the card
+    let rollno = document.querySelector(".rollNo");
+    rollno.textContent = randomNumber;
+  }
+  else{
+    let fixedLetters = "NW"; // Fixed letters
+    let randomDigits = Math.floor(100000 + Math.random() * 900000); // Generate random 6-digit number
+    let randomNumber = fixedLetters + "-" + randomDigits.toString().slice(0, 6); // Concatenate fixed letters with random digits
+  
+    // Update roll number on the card
+    let rollno = document.querySelector(".rollNo");
+    rollno.textContent = randomNumber;
+  }
+
+  
 
   // adding student name on the backside of card
   let backsidesection = document.querySelector(".info");
