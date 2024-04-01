@@ -4,6 +4,10 @@
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
+    gap: 50px;
+}
+.info{
+    text-align: start;
 }
 .card {
     background-image: url(/images/Screenshot\ from\ 2024-04-01\ 10-15-17.png);
