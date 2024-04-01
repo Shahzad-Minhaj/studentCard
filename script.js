@@ -120,6 +120,16 @@ function renderImage(file) {
     rollno.textContent = randomNumber;
     abc()
   }
+  else if(obj.d.value == "Fashion and Designing"){
+    let fixedLetters = "FAD"; // Fixed letters
+    let randomDigits = Math.floor(100000 + Math.random() * 900000); // Generate random 6-digit number
+    let randomNumber = fixedLetters + "-" + randomDigits.toString().slice(0, 6); // Concatenate fixed letters with random digits
+  
+    // Update roll number on the card
+    let rollno = document.querySelector(".rollNo");
+    rollno.textContent = randomNumber;
+    abc()
+  }
   else{
     rollno.textContent = ""
   }
